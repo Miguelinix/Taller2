@@ -1,0 +1,74 @@
+.wrap{
+    
+    text-align: center;
+    margin: 60px auto;
+    width: 80%; 
+}
+h1{
+    color: #ff3334;
+    font-size: 3rem;
+}
+.contenedores{
+    width: 100%;
+}
+.contenedores p{
+    text-align:justify ;
+}
+.contenidos{
+    display: flex;
+    /* width: 70%; */
+}
+.cont .caja{
+    background: #FFF;
+    border-radius: 5% 17% 5% 17%;
+    box-shadow: 16px 16px 41px -17px rgba(0,0,0,0.6);
+    animation: bounce 2.0s infinite;
+    z-index: -2;
+}
+.cont .caja:hover{
+    box-shadow: inset 16px 16px 41px -17px rgba(0,0,0,0.6);
+}
+.caja{
+    
+    margin: 0 auto;
+    display: inline-block;
+    width: 30%;
+    
+}
+.caja2{
+    margin: 0 auto;
+    width: 75%;
+}
+.caja2 img{
+    width: 100%;
+}
+/* -------------------- Nuestros alumnos ---------------------- */
+/* tabla */
+.contabla{
+    width: 100%;
+}
+.tabla{
+    width: 100%;
+    border: 2px solid #000;
+    background: #FFF;
+}
+tr, th, td{
+    border: 1px solid #000;
+}
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.207);
+} 
+
+/* ------------------------------ Galardones ------------------------------ */
+li{
+    list-style: lower-latin;
+}
+
+@keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 

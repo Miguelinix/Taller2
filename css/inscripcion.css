@@ -1,0 +1,121 @@
+section.wrap{
+    width: 80%;
+    margin: 60px auto;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+ul, li{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+h1{
+    color: #ff3334;
+    font-size: 3rem;
+    margin-top: 0;
+}
+.contenedor{
+    
+    display: flex;
+    margin: 0 auto;
+}
+.contenedores img{
+    width: 100%;
+    box-shadow: 16px 16px 41px -17px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    animation: bounce 2.0s infinite;
+    
+}
+.contenedores:nth-child(1){
+    width: 30%;
+    z-index: -2;
+
+}
+.contenedores:nth-child(2){
+    width: 70%;
+}
+
+/* ------------------form--------------------------- */
+.fle{
+    display: flex;
+}
+.p{
+    width: fit-content;
+    padding-right: 5px;
+}
+#feedback-form {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+  }
+  
+  #feedback-form * {
+      box-sizing: border-box;
+  }
+  
+  #feedback-form h3{
+    text-align: center;
+    background: #FFF;
+    margin-bottom: 30px;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+  }
+  
+  #feedback-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #feedback-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
+  
+  #feedback-form input[type=checkbox] {
+    float: left;
+  }
+  
+  #feedback-form input:not(:checked) + #feedback-phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #feedback-form #feedback-phone {
+    transition: .3s;
+  }
+  
+  #feedback-form button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+    background: #ff3333; /* Old browsers */
+    
+  }
+
+  /* ---------------------- */
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 

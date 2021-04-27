@@ -1,0 +1,17 @@
+@font-face
+{
+   font-family: "Product Sans";
+   src: url("../tipografias/Product\ Sans\ Bold.ttf") format("truetype");
+}
+@font-face
+{
+   font-family: "Product Sans Regular";   
+   src: url("../tipografias/Product\ Sans\ Regular.ttf") format("truetype");
+}
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+html{
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+}
